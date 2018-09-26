@@ -8,6 +8,8 @@ spring:
     username: root
   jpa:
     database: mysql
+    hibernate:
+      ddl-auto: update
     show-sql: true
   session:
     store-type: none
