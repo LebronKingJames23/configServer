@@ -1,21 +1,12 @@
 spring: 
-  application:
-    name: configclient
   datasource:
-    password: 123
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/vss?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-    username: root
   jpa:
     database: mysql
+    show-sql: true
     hibernate:
       ddl-auto: update
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
-    show-sql: true
-  session:
-    store-type: none
-
-
 
 
 
