@@ -1,6 +1,9 @@
 spring: 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://us-cdbr-iron-east-01.cleardb.net/ad_fb0a71b3a572f63?user=bc3b7024d17080&password=388841d3
+    username: bc3b7024d17080
+    password: 388841d3
   jpa:
     database: mysql
     show-sql: true
